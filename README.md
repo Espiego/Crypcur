@@ -3,16 +3,7 @@
 CrypCur: A Simple Cryptocurrency on Blockchain
 This repository contains a complete cryptocurrency project named CrypCur, built with Python. 
 
-Table of Contents
-Project Overview
-Features
-Getting Started
-How to Run
-API Endpoints
-Code Explanation
-Enhancements
-License
-Project Overview
+
 CrypCur is a basic cryptocurrency running on a custom blockchain. It allows nodes to mine blocks, verify transactions, and maintain consensus over the integrity of the blockchain. It showcases all the necessary components of a cryptocurrency system:
 
 Blockchain Structure
