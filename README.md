@@ -56,7 +56,8 @@ Acknowledgments
 Special thanks to the open-source blockchain and cryptocurrency community for providing resources and inspiration for this project.
 
 Run Instructions
-- Install dependencies:
+
+Install dependencies:
 - pip install -r requirements.txt
 
 Run the Flask node server:
