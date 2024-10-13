@@ -6,27 +6,29 @@ This repository contains a complete cryptocurrency project named CrypCur, built 
 
 CrypCur is a basic cryptocurrency running on a custom blockchain. It allows nodes to mine blocks, verify transactions, and maintain consensus over the integrity of the blockchain. It showcases all the necessary components of a cryptocurrency system:
 
-Blockchain Structure
+- Blockchain Structure
 
-Proof of Work Mining Algorithm
+- Proof of Work Mining Algorithm
 
-Transaction Management
+- Transaction Management
 
-Node Communication via Flask APIs
+- Node Communication via Flask APIs
 
-Blockchain Validation for Tamper-proofing
+- Blockchain Validation for Tamper-proofing
 
 Features
-Blockchain Management: Add and validate new blocks with transactions.
+- Blockchain Management: Add and validate new blocks with transactions.
 
-Proof of Work Mining: Implements a basic mining algorithm for block creation.
+- Proof of Work Mining: Implements a basic mining algorithm for block creation.
 
-Transaction System: Create transactions between wallets.
+- Transaction System: Create transactions between wallets.
 
-RESTful APIs: Flask-based APIs to interact with the blockchain.
+- RESTful APIs: Flask-based APIs to interact with the blockchain.
 
-Blockchain Validation: Ensures the chain remains tamper-proof and consistent.
+- Blockchain Validation: Ensures the chain remains tamper-proof and consistent.
+
 Getting Started
+
 Prerequisites
 Ensure you have the following installed on your machine:
 
@@ -40,11 +42,11 @@ Ensure you have the following installed on your machine:
 Enhancements
 CrypCur is a basic implementation of cryptocurrency. You can extend it with the following features:
 
--Peer-to-Peer Network: Enable communication between multiple nodes.
--RSA Cryptography: Secure transactions using public and private key pairs.
--Smart Contracts: Introduce programmable contracts on the blockchain.
--Web UI: Build a frontend interface to make the project more interactive.
--Advanced Mining Algorithm: Switch from Proof of Work to Proof of Stake for better efficiency.
+- Peer-to-Peer Network: Enable communication between multiple nodes.
+- RSA Cryptography: Secure transactions using public and private key pairs.
+- Smart Contracts: Introduce programmable contracts on the blockchain.
+- Web UI: Build a frontend interface to make the project more interactive.
+- Advanced Mining Algorithm: Switch from Proof of Work to Proof of Stake for better efficiency.
 
 
 Contributing
@@ -54,32 +56,23 @@ Acknowledgments
 Special thanks to the open-source blockchain and cryptocurrency community for providing resources and inspiration for this project.
 
 Run Instructions
-Install dependencies:
+- Install dependencies:
+- pip install -r requirements.txt
 
-
-pip install -r requirements.txt
 Run the Flask node server:
+- python node.py
 
-python node.py
 Create a wallet and generate a public/private key pair:
+- python wallet.py
 
-
-python wallet.py
 Test the APIs:
-
-Use cURL or Postman to interact with the CrypCur blockchain:
-
-Mine a block:
-
-
-curl http://127.0.0.1:5000/mine
-Add a transaction:
-
-
-curl -X POST http://127.0.0.1:5000/transactions/new \
--H "Content-Type: application/json" \
--d '{"sender": "Alice", "receiver": "Bob", "amount": 50}'
+- Use cURL or Postman to interact with the CrypCur blockchain:
+  Mine a block:
+  - curl http://127.0.0.1:5000/mine
+  Add a transaction:
+  - curl -X POST http://127.0.0.1:5000/transactions/new \
+    -H "Content-Type: application/json" \
+    -d '{"sender": "Alice", "receiver": "Bob", "amount": 50}'
+  
 Retrieve the blockchain:
-
-
-curl http://127.0.0.1:5000/chain
+  - curl http://127.0.0.1:5000/chain
