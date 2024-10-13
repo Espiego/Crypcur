@@ -52,3 +52,34 @@ Pull requests are welcome! If you wish to make major changes, please open an iss
 
 Acknowledgments
 Special thanks to the open-source blockchain and cryptocurrency community for providing resources and inspiration for this project.
+
+Run Instructions
+Install dependencies:
+
+
+pip install -r requirements.txt
+Run the Flask node server:
+
+python node.py
+Create a wallet and generate a public/private key pair:
+
+
+python wallet.py
+Test the APIs:
+
+Use cURL or Postman to interact with the CrypCur blockchain:
+
+Mine a block:
+
+
+curl http://127.0.0.1:5000/mine
+Add a transaction:
+
+
+curl -X POST http://127.0.0.1:5000/transactions/new \
+-H "Content-Type: application/json" \
+-d '{"sender": "Alice", "receiver": "Bob", "amount": 50}'
+Retrieve the blockchain:
+
+
+curl http://127.0.0.1:5000/chain
