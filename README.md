@@ -128,8 +128,7 @@ RSA Cryptography: Secure transactions using public and private key pairs.
 Smart Contracts: Introduce programmable contracts on the blockchain.
 Web UI: Build a frontend interface to make the project more interactive.
 Advanced Mining Algorithm: Switch from Proof of Work to Proof of Stake for better efficiency.
-License
-This project is licensed under the MIT License. You are free to use, modify, and distribute it.
+
 
 Contributing
 Pull requests are welcome! If you wish to make major changes, please open an issue to discuss your ideas before submitting.
