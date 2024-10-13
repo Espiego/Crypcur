@@ -1,7 +1,7 @@
 
 
 CrypCur: A Simple Cryptocurrency on Blockchain
-This repository contains a complete cryptocurrency project named CrypCur, built with Python. It demonstrates core concepts of blockchain and cryptocurrency creation, including block mining, transaction handling, and blockchain validation. This project provides a strong foundation for further development in the blockchain space.
+This repository contains a complete cryptocurrency project named CrypCur, built with Python. 
 
 Table of Contents
 Project Overview
