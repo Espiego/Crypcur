@@ -7,15 +7,24 @@ This repository contains a complete cryptocurrency project named CrypCur, built 
 CrypCur is a basic cryptocurrency running on a custom blockchain. It allows nodes to mine blocks, verify transactions, and maintain consensus over the integrity of the blockchain. It showcases all the necessary components of a cryptocurrency system:
 
 Blockchain Structure
+
 Proof of Work Mining Algorithm
+
 Transaction Management
+
 Node Communication via Flask APIs
+
 Blockchain Validation for Tamper-proofing
+
 Features
 Blockchain Management: Add and validate new blocks with transactions.
+
 Proof of Work Mining: Implements a basic mining algorithm for block creation.
+
 Transaction System: Create transactions between wallets.
+
 RESTful APIs: Flask-based APIs to interact with the blockchain.
+
 Blockchain Validation: Ensures the chain remains tamper-proof and consistent.
 Getting Started
 Prerequisites
